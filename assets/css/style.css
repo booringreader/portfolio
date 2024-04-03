@@ -1,21 +1,7 @@
-*{
-    margin: 0;
-    font-family: lucida grande;
-    border: border-box;
-    background-color: rgb(231, 235, 242);
- }
-
-.navbar {
-    height: 45px;
-    background-color: hwb(0 22% 75%);
-    color: white;
-}
-
 /* .nav-logo {
     height: 40px;
     width: 170px;
 } */
-
 /* .border {
     border: 1px solid transparent;  adds a transparent border around the div 
 }
@@ -31,12 +17,35 @@
     width: 100%;  uses 100% of the superdiv width 
 } */
 
-/* main block begins */
+/* .left-section .cover {
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+} */
 
+
+
+*{
+    margin: 0;
+    font-family: lucida grande;
+    border: border-box;
+    background-color: rgb(231, 235, 242);
+ }
+
+.navbar {
+    height: 45px;
+    background-color: hwb(0 22% 75%);
+    color: white;
+}
+
+
+/* main block begins */
 .root { /* default for the entire page */
     display: flex;
     background: rgb(231, 235, 242);
-    color: #333;
+    /* color: #333; */
     font-size: 11px;
     font-family: 'lucida grande', tahoma;
     height: 100%;
@@ -54,28 +63,30 @@
 .middle-section {
     position: relative;
     border: 1px solid #1c2a47;
-    flex: 3;
+    flex: 1.5;
 }
-/* .left-section .cover {
-    position: absolute;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-} */
 
+
+/* left-section */
+.left-section {
+    background: url(https://user-images.githubusercontent.com/74038190/212259363-d40b7a35-375b-470c-b4e2-2d9cb8ac706c.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:blur(6px);
+}
+
+.leftContent {
+}
 .profile-box { /* for cover photo, profile photo and name */
-    width: 500px;
+    width: 440px;
     height: 250px;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-right: 15px;
-    margin-bottom: 100%;
-    border-radius: 3px;
-    border-left: 1px solid rgba(9, 9, 9, 0.3);
-    border-top: 1px solid rgba(9, 9, 9, 0.3);
-    border-right: 1px solid rgba(9, 9, 9, 0.3);
+    border: 1px solid rgba(9, 9, 9, 0.3);
     border-bottom: 1px solid black;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 100%;
 }
 .coverWrap { /* area for cover photo (makes movement of section easier */
     width: 100%; /* relative to profiel-box */
@@ -115,12 +126,81 @@ img {
     height: 100%;
 }
 
-.coverBorder {
+
+
+/* .middle-section */
+.midbgImage {
+    background: url(https://user-images.githubusercontent.com/74038190/213911110-aedbef38-a29f-4b6b-a65c-11608b4f75a5.gif);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter:blur(3px);
+}
+
+.content {
+    color :rgb(33, 142, 192);
+}
+
+
+
+/* right-section */
+.rightbgImage {
+    background: url(https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    filter:blur(4px);
+}
+.education {
+    background-color: azure;
+    width: 320px;
+    height: 180px;
+    border: 1px solid brown;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 35px;
+    position: absolute;
+}
+.experience {
+    background-color: azure;
+    widht:320px;
+    height:180px;
+    border: 1px solid brown;
+    border-radius: 3px;
+    margin-top: 240px;
+    margin-left:10px;
+    margin-right:10px;
+    position:absolute;
+}
+
+#exp-padding, #audio-exp{
+    padding:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .coverBorder {
     border: 1px solid black;
     border-top-color: rgba(0,0,0,.1);
     border-color: rgba(0,0,0,.25);
 }
-/* credentials section begins */
+credentials section begins
 
 .coverTimeline {
     height: 60px;
@@ -133,7 +213,7 @@ img {
     word-wrap: break-word;
 }
 
-/* profile photo section */
+profile photo section 
 .photoContainer-frame {
     margin-top: -121px;
     background: rgba(0,0,0,.3);
@@ -152,9 +232,9 @@ img {
     border-radius: 2px;
     aspect-ratio: auto;
 }
-/* profile photo section ends */
+profile photo section ends 
 
-/*name section */
+name section 
 h2 {
     margin-left: 206px;
     color: #1c2a47;
@@ -165,7 +245,7 @@ h2 {
     margin-block-end: 0.83em;
     font-weight: bold;
 }
-/* name section ends */
+name section ends 
 
 .topsectionBottomBorder {
     width: 851px;
@@ -175,4 +255,5 @@ h2 {
     border-bottom: 1px solid black;
     border-top-color: rgba(0,0,0,.1);
     border-color: rgba(0,0,0,.25);
-}
+} */
+
