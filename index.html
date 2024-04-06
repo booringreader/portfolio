@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 
   <body>
@@ -20,19 +22,22 @@
 
         <!-- left-section -->
         <div class="section left-section credentials-col">
-          <div class="profile-box">
-            <div class="coverWrap">
-              <div class="coverImg"><img id="coverImg" src="assets/images/coverPhoto.jpg"></div>
-            </div> <!-- coverWrap -->
-          </div> <!-- profile-box -->
+          <img class="leftbgImage">
+          <div class="leftContent">
 
-          <!-- profilePhotoWrap -->
-          <div class="profilePhotoWrap">
-            <div class="profileImg"><img id="profileImg" src="assets/images/profile.png"></div> <!-- profileImg-->
-          </div> <!-- profilePhotoWrap -->
+            <div class="profileCover">
+              <img id="coverImg" src="assets/images/coverPhoto.jpg">
+            </div> <!-- profile-box -->
 
-          <!-- socials-box -->
-          <div class="socials-box"></div>
+            <div class="profilePhotoWrap">
+              <div class="profileImg"><img id="profileImg" src="assets/images/profile.png"></div> <!-- profileImg-->
+            </div> <!-- profilePhotoWrap -->
+
+            <div class="topsectionBottomBorder">
+              <div class="name">Shubham Sharma</div>
+            </div>
+
+          </div> <!-- leftContent -->
         </div><!-- left-section -->
 
         <!-- projects-col -->
@@ -43,23 +48,59 @@
               <h3>test</h3>
             </div>
             <div class="project-card"></div>
-          </div>
+          </div> <!-- content -->
         </div> <!-- projects-col -->
 
         <!-- information-col -->
         <div class="section right-section information-col">
           <img class="rightbgImage">
-          <div class="education" id="exp-padding">
-            National Institute of Technology Srinagar<br>XX cgpa<br><br>
-            Shri GuruTeg Bahadur Sr. Sec. School <br>94.6%<br><br>
-            St. John's Sr. Sec. School<br>96.4%
+          <div class="education" id="ed-padding">
+            <i class="fa-solid fa-graduation-cap fa-flip"></i>
+            <h2 id="EDUCATION">Education</h2>
+            <hr>
+            <p id="college">National Institute of Technology Srinagar, Srinagar</p><br>
+            <p>
+            <pre id="degree">B.Tech (Computer Science & Engineering)                          CGPA: 8.03</pre>
+            </p><br><br>
+
+            <p id="higher-secondary"> Shri GuruTeg Bahadur Sr. Sec. School </p><br>
+            <p>
+            <pre id="twelfth">Higher Secondary (Class-XII)                                    Percentage: 94.6%</pre>
+            </p><br><br>
+
+            <p id="secondary"> St. John's Sr. Sec. School </p><br>
+            <p>
+            <pre
+              id="tenth">Secondary (Class-X)                                                     Percentage: 96.4%</pre>
+            </p><br>
           </div>
-          <div class="experience">
-            <p id="audio-exp"><b>Assistant Audio Engineer, Techvaganza’23</b>-SOAPBox Culturals<br>
-              The job involved assisting in managing the graphic screen, sound equipment, and music relevant to the
-              performances scheduled on Day 1 of the annual tech-fest: Techvaganza.</p>
+
+          <div class="experience" id="expPadding">
+            <i class="fa-solid fa-timeline"></i>
+            <h2 id="EXPERIENCE">Experience</h2><hr>
+            
+            <p id="secExp">Interim Secretary, SOAPBox Casuals</p><br>
+            <p id="secExpChild">The job involved getting necessary permissions, deciding and keeping records of programme timeline .. blah blah blah
+            </p><br>
+
+            <p id="audioExp">Assistant Audio Engineer, Techvaganza’23-SOAPBox Culturals</p><br>
+            <p id="audioExpChild">The job involved assisting in managing the graphic screen, sound equipment, and music relevant to the
+              performances scheduled on Day 1 of the annual tech-fest: Techvaganza.
+            </p><br>
+
+            <p id="videoExp">Videographer, Photographer & Social Media Manager, SOAPBox Takshak</p><br>
+            <p id="videoExpChild">The responsibilities during the span (5 days) of this project involved recording the performances of the participants, coordinating with the editors, and posting the content on the relevant social media platforms of the society in an organized manner.
+            </p><br>
+
+            <p id="videoExp2">Videographer & Video Editor, SOAPBox Casuals</p><br>
+            <p id="videoExpChild2">The project involved recording and editing videos of the performances planned during the event.
+            </p><br><br><hr>
           </div>
-        </div> <!-- information-col -->
+          <div class="socials">
+            <a href="www.instagram.com/shubhams1_"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+
+        </div> <!-- right-section -->
       </div> <!-- root -->
     </main>
   </body>
