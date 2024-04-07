@@ -192,6 +192,9 @@
     margin-top: 20px;
     position: absolute;
 }
+.headingOpacity {
+    opacity: 0.9;
+}
 #college {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 17px;
@@ -203,6 +206,7 @@
     margin-top: -13px;
     font-size: 16px;
     font-weight: 500;
+    opacity: 0.5;
 }
 
 #higher-secondary {
@@ -215,6 +219,7 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: -13px;
     font-size: 16px;
+    opacity: 0.5;
 }
 
 #secondary {
@@ -227,6 +232,7 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: -13px;
     font-size: 16px;
+    opacity: 0.5;
 }
 #ed-padding{
     padding:5px;
@@ -261,6 +267,7 @@
     font-size: 16.5px;
     margin-top: -12px;
     word-spacing: -1px;
+    opacity: 0.5;
 }
 
 #audioExp {
@@ -274,6 +281,7 @@
     font-size: 16.5px;
     margin-top: -12px;
     word-spacing: -1px;
+    opacity: 0.5;
 }
 
 #videoExp {
@@ -287,6 +295,7 @@
     font-size: 16.5px;
     margin-top: -12px;
     word-spacing: -1px;
+    opacity: 0.5;
 }
 
 #videoExp2 {
@@ -300,6 +309,7 @@
     font-size: 16.5px;
     margin-top: -14px;
     word-spacing: -1px;
+    opacity: 0.5;
 }
 
 .socials {
