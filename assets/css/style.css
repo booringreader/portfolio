@@ -88,25 +88,96 @@
 }
 
 
-.Card1 {
-    width: 150px;
-    height: 190px;
-    background-color: #fff;
+.projectCardrow1 {
+    width: 720px;
+    height: 150px;
     margin-top: 400px;
     margin-left: 80px;
+    display: flex;
+}
+.projectCardrow2 {
+    width: 720px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 80px;
+    display: flex;
+}
+
+
+#project1 {
+    width: 150px;
+    height: 120px;
+    background-color: #fff;
     box-shadow: rgba(0, 0, 0, .3);
     border-radius: 4px;
 }
-#Card1 {
+.projectImageContainer {
     width: 100%;
-    height: 110px;
+    height: 90px;
+    overflow: hidden;
+    border: 0.5px solid rgba(0, 0, 0, .3);
+    border-bottom: 0;
+    border-radius: 3px;
 }
-.card1Description {
+#project1Image {
+    width: 100%;
+}
+#project1Description {
     background-color: #fff;
     width: 100%;
-    height: 10px;
+    height: 60px;
 }
 
+#project2 {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, .3);
+    border-radius: 4px;
+    margin-left: 30px;
+}
+#project2Image {
+    width: 100%;
+}
+#project2Description {
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+}
+
+#project3 {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, .3);
+    border-radius: 4px;
+    margin-left: 30px;
+}
+#project3Image {
+    width: 100%;
+}
+#project3Description {
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+}
+
+#project4 {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, .3);
+    border-radius: 4px;
+    margin-left: 30px;
+}
+#project4Image {
+    width: 100%;
+}
+#project4Description {
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+}
 /* right-section */
 .rightbgImage {
     /* background: url(https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif); */
