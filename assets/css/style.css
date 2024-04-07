@@ -106,7 +106,7 @@
 
 #project1 {
     width: 150px;
-    height: 120px;
+    height: 150px;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, .3);
     border-radius: 4px;
@@ -134,7 +134,7 @@
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, .3);
     border-radius: 4px;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 #project2Image {
     width: 100%;
@@ -151,7 +151,7 @@
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, .3);
     border-radius: 4px;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 #project3Image {
     width: 100%;
@@ -168,7 +168,7 @@
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, .3);
     border-radius: 4px;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 #project4Image {
     width: 100%;
